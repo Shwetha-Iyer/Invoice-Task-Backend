@@ -1,0 +1,44 @@
+{
+    "invoice_number":"INV-002",
+    "created_date":"25/06/2021",
+    "due_date":"30/06/2021",
+    "biller_details":{
+        "company_name":"ABC Inc",
+        "biller_name":"Shwetha",
+        "address_line1":"23, North Avenue",
+        "address_line2":"Gangnam-Gu",
+        "city":"Chennai",
+        "state":"Tamil Nadu",
+        "country":"India"
+    },
+    "client_details":{
+        "company_name":"911 Enterprises",
+        "email":"jj169179@gmail.com",
+        "address_line1":"25, East Avenue",
+        "address_line2":"Incheon-Gu",
+        "city":"Seoul",
+        "state":"Seoul",
+        "country":"Korea"
+    },
+    "bill_details":{
+        "items":[
+            {
+                "item_desc":"Brochure",
+                "qty":3,
+                "rate":200,
+                "amount":600
+            },{
+                "item_desc":"Blankets",
+                "qty":1,
+                "rate":500,
+                "amount":500
+            }
+        ],
+        "sub_total":1100,
+        "tax":110,
+        "total":1210
+    },
+    "notes":"Pleasure doing business with you",
+    "terms":"Please pay on or before due date",
+    "created_by":"kimjenni.91@gmail.com"
+}

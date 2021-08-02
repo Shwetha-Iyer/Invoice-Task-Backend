@@ -1,0 +1,10 @@
+require("dotenv").config();
+const DBURL = process.env.DB_URL;
+const PORT = process.env.PORT || 3100;
+const DBNAME = process.env.DBNAME;
+const TOKEN = process.env.TOKEN;
+const EMAIL = process.env.EMAIL;
+const PASS = process.env.PASS;
+const USER_DETAILS = process.env.COL_USER;
+const INVOICE_DETAILS = process.env.COL_INVOICE;
+module.exports = {DBURL,PORT,DBNAME,TOKEN,EMAIL,PASS,USER_DETAILS,INVOICE_DETAILS};
